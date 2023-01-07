@@ -1,15 +1,66 @@
-.container {
-  background-color: pink;
-  
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/*Mobile First*/
+
+@media(min-width: 576px) {
+    /* Tablet */
+
 }
 
-.aside {
-  height: 100vh;
-  background-color: red;
-  width: 100px;
-  position: fixed;
-}
+@media (min-width: 1199.98px) {
+    /*Desktop*/
+    .container {
+      background-color: pink;
+    }
+    
+    .aside {
+      height: 100vh;
+      background-color: black;
+      width: 150px;
+      position: fixed;
+      text-align: center;
+      justify-content: center;
+      display: inline-block;
+    }
 
-.notcontainer{
-  padding-left: 100px;
+    .aside h3 {
+      margin-top: 5vh;
+      margin-bottom: 30vh;
+      font-family: 'Press Start 2P', cursive;
+    }
+
+    .aside button {
+      display: block;
+     
+      margin: 0px;
+      width: 100%;
+      padding: 10px 0 10px 0;
+      margin-top: 2vh;
+      font-family: 'Press Start 2P', cursive;
+      text-decoration: none;
+      background: none;
+      border: none;
+      border-top: 1px solid white;
+      border-bottom: 1px solid white;
+      
+    }
+
+    .first:hover{
+      background-color: white;
+    }
+
+    .second:hover{
+      background-color: white;
+    }
+
+    .third:hover {
+      background-color: white;
+    }
+
+    .four:hover {
+      background-color: white;
+    }
+
+    .notcontainer{
+      padding-left: 100px;
+    }
 }

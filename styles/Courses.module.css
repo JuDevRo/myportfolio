@@ -8,7 +8,7 @@
 @media (min-width: 1199.98px) {
     /*Desktop*/
     .container {
-        background-color: aqua;
+        background-color: gray;
         padding-left: 150px;
         height: 100vh;
     }

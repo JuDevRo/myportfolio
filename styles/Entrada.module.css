@@ -1,8 +1,32 @@
-.container {
-    padding-left: 100px;
-    height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/*Mobile First*/
+
+@media(min-width: 576px) {
+    /* Tablet */
+
 }
 
-.container h1 {
-    display: inline-block;
+@media (min-width: 1199.98px) {
+    /*Desktop*/
+    .container {
+        padding-left: 150px;
+        height: 100vh;
+        text-align: right;
+        justify-content: right;
+        align-content: center;
+        display: grid;
+        
+    }
+    
+    .container h1 {
+       display: block;
+       margin-right: 50px;
+       font-family: 'Press Start 2P', cursive;
+    }
+    .container p {
+        display: block;
+        margin-top: 20px;
+        margin-right: 20vh;
+       
+     }
 }
