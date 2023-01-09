@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:ital,wght@1,300&display=swap');
 /*Mobile First*/
 
 @media(min-width: 576px) {
@@ -8,8 +9,36 @@
 @media (min-width: 1199.98px) {
     /*Desktop*/
     .container {
+        display: grid;
+        /*background-color: rgb(44, 44, 44);*/
         background-color: aqua;
-        padding-left: 150px;
+        padding-left: 15vw;
         height: 100vh;
+        align-content: center;
+        grid-template-areas: "tex crea";
+    }
+
+    .container h2 {
+        font-family: 'Press Start 2P', cursive;
+        margin-bottom: 5vh;
+        margin-right: 0px;
+    }
+
+    .container p {
+        font-family: 'Ubuntu', sans-serif;
+        width: 50vh;
+        margin-right: 0px;
+    }
+
+    .creative {
+        display: grid;
+        justify-content: center;
+        grid-area: crea;
+        
+    }
+
+    .text {
+        grid-area: tex;
+        margin: 0px;
     }
 }

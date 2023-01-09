@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:ital,wght@1,300&display=swap');
 /*Mobile First*/
 
 @media(min-width: 576px) {
@@ -8,8 +9,64 @@
 @media (min-width: 1199.98px) {
     /*Desktop*/
     .container {
+        display: grid;
         background-color:green;
-        padding-left: 150px;
+        padding-left: 15vw;
         height: 100vh;
+        align-content: center;
     }
+
+    .text {
+
+    }
+
+    .text h2 {
+        font-family: 'Press Start 2P', cursive;
+        margin-bottom: 2vh;
+    }
+    .text p {
+        font-family: 'Ubuntu', sans-serif;
+        width: 30vw;
+    }
+
+    .form {
+        margin-top: 2vh;
+    }
+
+    .name{
+        height: 5vh;
+        width: 14.5vw;
+        margin-right: 1vw;
+        margin-bottom: 2vh;
+        text-align: center;
+        border: none;
+        background-color: black;
+    }
+
+    .email {
+        height: 5vh;
+        width: 14.5vw;
+        text-align: center;
+        border: none;
+        background-color: black;
+    }
+
+    .subject {
+        height: 5vh;
+        width: 30vw;
+        margin-bottom: 2vh;
+        text-align: center;
+        border: none;
+        background-color: black;
+    }
+
+    .message{
+        padding: 0;
+        
+        height: 10vh;
+        width: 30vw;
+        border: none;
+        background-color: black;
+    }
+
 }

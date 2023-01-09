@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:ital,wght@1,300&display=swap');
 /*Mobile First*/
 
 @media(min-width: 576px) {
@@ -11,5 +12,12 @@
         background-color: gray;
         padding-left: 150px;
         height: 100vh;
+        justify-content: center;
+        align-content: center;
+        display: grid;
+    }
+
+    .container h2 {
+        font-family: 'Press Start 2P', cursive;
     }
 }

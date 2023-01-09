@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:ital,wght@1,300&display=swap');
 /*Mobile First*/
 
 @media(min-width: 576px) {
@@ -9,7 +9,7 @@
 @media (min-width: 1199.98px) {
     /*Desktop*/
     .container {
-      background-color: pink;
+      background-color: rgb(44, 44, 44);
     }
     
     .aside {
@@ -45,19 +45,19 @@
     }
 
     .first:hover{
-      background-color: white;
+      background-color: grey;
     }
 
     .second:hover{
-      background-color: white;
+      background-color: grey;
     }
 
     .third:hover {
-      background-color: white;
+      background-color: grey;
     }
 
     .four:hover {
-      background-color: white;
+      background-color: grey;
     }
 
     .notcontainer{

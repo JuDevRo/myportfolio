@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:ital,wght@1,300&display=swap');
 /*Mobile First*/
 
 @media(min-width: 576px) {
@@ -27,6 +27,6 @@
         display: block;
         margin-top: 20px;
         margin-right: 20vh;
-       
+        font-family: 'Ubuntu', sans-serif;
      }
 }

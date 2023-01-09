@@ -11,5 +11,34 @@
         background-color: yellow;
         padding-left: 150px;
         height: 100vh;
+        display: grid;
+        grid-template-areas: 
+        "u d t"
+        "c ci s"
+        ;
+    }
+
+    .uno{
+        grid-area: u;
+    }
+
+    .dos{
+        grid-area: d;
+    }
+
+    .tres{
+        grid-area: t;
+    }
+
+    .cuatro{
+        grid-area: c;
+    }
+
+    .cinco{
+        grid-area: ci;
+    }
+
+    .seis{
+        grid-area: s;
     }
 }
