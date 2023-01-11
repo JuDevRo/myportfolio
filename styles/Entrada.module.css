@@ -9,24 +9,61 @@
 @media (min-width: 1199.98px) {
     /*Desktop*/
     .container {
-        padding-left: 150px;
+        padding-left: 180px;
         height: 100vh;
-        text-align: right;
+        /*text-align: right;
         justify-content: right;
-        align-content: center;
-        display: grid;
+        align-content: center;*/
+        padding-top: 38vh;
+
+        /*display: grid;*/
         
     }
+
+    .container span{
+        display: inline-block;
+        font-size: 32px;
+        font-family: 'Press Start 2P', cursive;
+        
+    }
+
+    .container span:hover {
+        color: rgb(236, 249, 120);
+        transition: all 0.3s ease-out;
+        animation: animate 1s;
+    }
+
+    .space {
+        margin-right: 2vw;
+    }
     
-    .container h1 {
+    /*.container h1 {
        display: block;
        margin-right: 50px;
        font-family: 'Press Start 2P', cursive;
+       
     }
+
+    .container h1:hover {
+        animation: animate 2s;
+    }
+
     .container p {
         display: block;
         margin-top: 20px;
         margin-right: 20vh;
         font-family: 'Ubuntu', sans-serif;
-     }
+     }*/
+    
+     @keyframes animate {
+        0% {
+            font-size: 32px;
+        }
+        50% {
+            font-size: 27px;
+        }
+        100% {
+            font-size: 32px;
+        }
+    }
 }

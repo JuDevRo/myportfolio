@@ -26,6 +26,12 @@
       margin-top: 5vh;
       margin-bottom: 30vh;
       font-family: 'Press Start 2P', cursive;
+      cursor: pointer;
+    }
+
+    .aside h3:hover{
+      color: rgb(236, 249, 120);
+      transition: all 0.3s ease-out;
     }
 
     .aside button {
@@ -41,23 +47,30 @@
       border: none;
       border-top: 1px solid white;
       border-bottom: 1px solid white;
-      
     }
 
     .first:hover{
-      background-color: grey;
+      background-color: rgb(253, 253, 253);
+      color: black;
+      transition: all 0.3s ease-out;
     }
 
     .second:hover{
-      background-color: grey;
+      background-color: rgb(253, 253, 253);
+      color: black;
+      transition: all 0.3s ease-out;
     }
 
     .third:hover {
-      background-color: grey;
+      background-color: rgb(253, 253, 253);
+      color: black;
+      transition: all 0.3s ease-out;
     }
 
     .four:hover {
-      background-color: grey;
+      background-color: rgb(253, 253, 253);
+      color: black;
+      transition: all 0.3s ease-out;
     }
 
     .notcontainer{
