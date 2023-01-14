@@ -1,9 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:ital,wght@1,300&display=swap');
 /*Mobile First*/
 
+.container {
+  background-color: rgb(44, 44, 44);
+}
+
+.aside {
+  text-align: center;
+  padding: 1.5vh;
+  height: 10vh;
+  background-color: black;
+  width: 100vw;
+  position: fixed;
+  display: inline-block;
+  z-index: 1;
+}
+
+.aside h3 {
+  margin-bottom: 1vh;
+  font-family: 'Press Start 2P', cursive;
+  cursor: pointer;
+}
+
+.aside h3:hover{
+  color: rgb(236, 249, 120);
+  transition: all 0.3s ease-out;
+}
+
+.aside button {
+  display: inline-block;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  background: none;
+  border: none;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.first:hover{
+  background-color: rgb(253, 253, 253);
+  color: black;
+  transition: all 0.3s ease-out;
+}
+
+.second:hover{
+  background-color: rgb(253, 253, 253);
+  color: black;
+  transition: all 0.3s ease-out;
+}
+
+.third:hover {
+  background-color: rgb(253, 253, 253);
+  color: black;
+  transition: all 0.3s ease-out;
+}
+
+.four:hover {
+  background-color: rgb(253, 253, 253);
+  color: black;
+  transition: all 0.3s ease-out;
+}
+
+.notcontainer{
+  padding-left: 100px;
+}
+
 @media(min-width: 576px) {
     /* Tablet */
+  .container {
+      background-color: rgb(44, 44, 44);
+    }
 
+    .aside {
+      text-align: center;
+      padding: 1.5vh;
+      height: 7.5vh;
+      background-color: black;
+      width: 100vw;
+      position: fixed;
+      display: inline-block;
+      z-index: 1;
+    }
+
+    .aside h3 {
+      margin-bottom: 1vh;
+      font-family: 'Press Start 2P', cursive;
+      cursor: pointer;
+    }
+
+    .aside h3:hover{
+      color: rgb(236, 249, 120);
+      transition: all 0.3s ease-out;
+    }
+
+    .aside button {
+      display: inline-block;
+      padding-right: 1vw;
+      padding-left: 1vw;
+      font-family: 'Press Start 2P', cursive;
+      text-decoration: none;
+      background: none;
+      border: none;
+      border-right: 1px solid white;
+      border-left: 1px solid white;
+    }
+
+    .first:hover{
+      background-color: rgb(253, 253, 253);
+      color: black;
+      transition: all 0.3s ease-out;
+    }
+
+    .second:hover{
+      background-color: rgb(253, 253, 253);
+      color: black;
+      transition: all 0.3s ease-out;
+    }
+
+    .third:hover {
+      background-color: rgb(253, 253, 253);
+      color: black;
+      transition: all 0.3s ease-out;
+    }
+
+    .four:hover {
+      background-color: rgb(253, 253, 253);
+      color: black;
+      transition: all 0.3s ease-out;
+    }
+
+    .notcontainer{
+      padding-left: 100px;
+    }
 }
 
 @media (min-width: 1199.98px) {
@@ -14,12 +144,14 @@
     
     .aside {
       height: 100vh;
+      padding: 0vh;
       background-color: black;
       width: 150px;
       position: fixed;
       text-align: center;
       justify-content: center;
       display: inline-block;
+      z-index: 1;
     }
 
     .aside h3 {
@@ -36,7 +168,8 @@
 
     .aside button {
       display: block;
-     
+      padding-right: 0vw;
+      padding-left: 0vw;
       margin: 0px;
       width: 100%;
       padding: 10px 0 10px 0;
@@ -45,7 +178,7 @@
       text-decoration: none;
       background: none;
       border: none;
-      border-top: 1px solid white;
+      border-top: 0px solid white;
       border-bottom: 1px solid white;
     }
 

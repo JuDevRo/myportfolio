@@ -1,14 +1,208 @@
 /*Mobile First*/
 
+.container {
+    background-color: #e0e0e0;
+    padding-left: 0px;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "u d t"
+    "c ci s"
+    ;
+}
+
+.uno{
+    /*display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: white;*/
+    grid-area: u;
+    background-image: initial;
+    
+}
+
+.tapa {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.395);
+}
+
+.tapa h2 {
+    background-color: transparent;
+    color: transparent;
+    padding: 2vw;
+    border-radius: 200px;
+}
+
+.tapa:hover {
+    background-color: transparent;
+    transition: all 0.5s ease-out;
+}
+
+.tapa:hover h2 {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(2, 85, 251);
+    transition: all 0.5s ease-out;
+}
+
+.uno {
+    background-image: url('../assets/avomobile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25vw;
+    grid-area: u;
+}
+
+.dos{
+    background-image: url('../assets/batatabitmobile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25vw;
+    grid-area: d;
+}
+
+.tres{
+    background-image: url('../assets/epicmoviesmobile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25vw;
+    grid-area: t;
+}
+
+.cuatro{
+    background-image: url('../assets/platzimobile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25vw;
+    grid-area: c;
+}
+
+.cinco{
+    background-image: url('../assets/todomobile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25vw;
+    grid-area: ci;
+}
+
+.seis{
+    background-image: url('../assets/pokeduxmobile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25vw;
+    grid-area: s;
+}
+
 @media(min-width: 576px) {
     /* Tablet */
+    .container {
+        background-color: #e0e0e0;
+        padding-left: 0px;
+        height: 100vh;
+        display: grid;
+        grid-template-areas: 
+        "u d t"
+        "c ci s"
+        ;
+    }
 
+    .uno{
+        /*display: grid;
+        justify-content: center;
+        align-content: center;
+        background-color: white;*/
+        grid-area: u;
+        background-image: initial;
+        
+    }
+
+    .tapa {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.395);
+    }
+
+    .tapa h2 {
+        background-color: transparent;
+        color: transparent;
+        padding: 2vw;
+        border-radius: 200px;
+    }
+
+    .tapa:hover {
+        background-color: transparent;
+        transition: all 0.5s ease-out;
+    }
+
+    .tapa:hover h2 {
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        background-color: rgb(2, 85, 251);
+        transition: all 0.5s ease-out;
+    }
+
+    .uno {
+        background-image: url('../assets/avomobile.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25vw;
+        grid-area: u;
+    }
+
+    .dos{
+        background-image: url('../assets/batatabitmobile.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25vw;
+        grid-area: d;
+    }
+
+    .tres{
+        background-image: url('../assets/epicmoviesmobile.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25vw;
+        grid-area: t;
+    }
+
+    .cuatro{
+        background-image: url('../assets/platzimobile.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25vw;
+        grid-area: c;
+    }
+
+    .cinco{
+        background-image: url('../assets/todomobile.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25vw;
+        grid-area: ci;
+    }
+
+    .seis{
+        background-image: url('../assets/pokeduxmobile.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25vw;
+        grid-area: s;
+    }
 }
 
 @media (min-width: 1199.98px) {
     /*Desktop*/
     .container {
-        background-color: yellow;
+        background-color: #e0e0e0;
         padding-left: 150px;
         height: 100vh;
         display: grid;
@@ -53,31 +247,55 @@
     .tapa:hover h2 {
         color: white;
         font-family: 'Ubuntu', sans-serif;
-        background-color: rgb(248, 248, 7);
+        background-color: rgb(2, 85, 251);
         transition: all 0.5s ease-out;
     }
 
-    .uno:hover {
-        
+    .uno {
+        background-image: url('../assets/avo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25vw;
+        grid-area: u;
     }
 
     .dos{
+        background-image: url('../assets/batatabit.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25vw;
         grid-area: d;
     }
 
     .tres{
+        background-image: url('../assets/epicmovies.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25vw;
         grid-area: t;
     }
 
     .cuatro{
+        background-image: url('../assets/platzistore.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25vw;
         grid-area: c;
     }
 
     .cinco{
+        background-image: url('../assets/todo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25vw;
         grid-area: ci;
     }
 
     .seis{
+        background-image: url('../assets/pokedux.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25vw;
         grid-area: s;
     }
 }

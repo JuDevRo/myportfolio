@@ -1,23 +1,247 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:ital,wght@1,300&display=swap');
 /*Mobile First*/
+.container {
+    background-color: rgb(44, 44, 44);
+    padding-left: 5vw;
+    padding-top: 30px;
+    height: 100vh;
+    
+    grid-template-areas: 
+    "a b c"
+    "d e f"
+    "g h i"
+    ;
+    display: grid;
+}
+
+.card {
+    padding: 2vw;
+    color: black;
+    width: 90%;
+    height: 90%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    
+}
+
+.card h3 {
+    font-weight: 100;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    border-top: 2px solid rgb(236, 249, 120);
+    padding-top: 1vh;
+}
+
+.card h2 {
+    margin: 2vh 0 2vh 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.card p {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#a{
+    grid-area: a;
+}
+
+#b{
+    grid-area: b;
+}
+
+#c{
+    grid-area: c;
+}
+
+#d{
+    grid-area: d;
+}
+
+#e{
+    grid-area: e;
+}
+
+#f{
+    grid-area: f;
+}
+
+#g{
+    grid-area: g;
+}
+
+#h{
+    grid-area: h;
+}
+
+#i{
+    grid-area: i;
+}
+
 
 @media(min-width: 576px) {
     /* Tablet */
+    .container {
+        background-color: rgb(44, 44, 44);
+        padding-left: 5vw;
+        padding-top: 30px;
+        height: 100vh;
+        
+        grid-template-areas: 
+        "a b c"
+        "d e f"
+        "g h i"
+        ;
+        display: grid;
+    }
 
+    .card {
+        padding: 2vw;
+        color: black;
+        width: 90%;
+        height: 90%;
+        background-color: rgb(230, 230, 230);
+        border-radius: 10px;
+        
+    }
+
+    .card h3 {
+        font-weight: 100;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;
+        border-top: 2px solid rgb(236, 249, 120);
+        padding-top: 1vh;
+    }
+
+    .card h2 {
+        margin: 2vh 0 2vh 0;
+        font-size: 26px;
+        cursor: pointer;
+    }
+
+    .card p {
+        font-size: 16px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    #a{
+        grid-area: a;
+    }
+
+    #b{
+        grid-area: b;
+    }
+
+    #c{
+        grid-area: c;
+    }
+
+    #d{
+        grid-area: d;
+    }
+
+    #e{
+        grid-area: e;
+    }
+
+    #f{
+        grid-area: f;
+    }
+
+    #g{
+        grid-area: g;
+    }
+
+    #h{
+        grid-area: h;
+    }
+
+    #i{
+        grid-area: i;
+    }
+    
 }
 
 @media (min-width: 1199.98px) {
     /*Desktop*/
     .container {
-        background-color: gray;
-        padding-left: 150px;
+        background-color: rgb(44, 44, 44);
+        padding-left: 200px;
+        padding-top: 30px;
         height: 100vh;
-        justify-content: center;
-        align-content: center;
+        
+        grid-template-areas: 
+        "a b c"
+        "d e f"
+        "g h i"
+        ;
         display: grid;
     }
 
-    .container h2 {
-        font-family: 'Press Start 2P', cursive;
+    .card {
+        padding: 2vw;
+        color: black;
+        width: 90%;
+        height: 90%;
+        background-color: rgb(230, 230, 230);
+        border-radius: 10px;
+        
     }
+
+    .card h3 {
+        font-weight: 100;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+        border-top: 2px solid rgb(236, 249, 120);
+        padding-top: 1vh;
+    }
+
+    .card h2 {
+        margin: 2vh 0 2vh 0;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .card p {
+        font-size: 18px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    #a{
+        grid-area: a;
+    }
+
+    #b{
+        grid-area: b;
+    }
+
+    #c{
+        grid-area: c;
+    }
+
+    #d{
+        grid-area: d;
+    }
+
+    #e{
+        grid-area: e;
+    }
+
+    #f{
+        grid-area: f;
+    }
+
+    #g{
+        grid-area: g;
+    }
+
+    #h{
+        grid-area: h;
+    }
+
+    #i{
+        grid-area: i;
+    }
+    
 }

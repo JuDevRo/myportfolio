@@ -1,9 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:ital,wght@1,300&display=swap');
 /*Mobile First*/
+.container {
+        
+    height: 100vh;
+    /*text-align: right;
+    justify-content: right;
+    align-content: center;*/
+    padding-top: 45vh;
+    text-align: center;
+    /*display: grid;*/
+    
+}
 
+.container span{
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+.container span:hover {
+    color: rgb(236, 249, 120);
+    transition: all 0.3s ease-out;
+    animation: animate 1s;
+}
+
+.space {
+    margin-right: 2vw;
+}
+
+@keyframes animate {
+    0% {
+        font-size: 28px;
+    }
+    50% {
+        font-size: 23px;
+    }
+    100% {
+        font-size: 28px;
+    }
+}
 @media(min-width: 576px) {
     /* Tablet */
+    .container {
+        
+        height: 100vh;
+        /*text-align: right;
+        justify-content: right;
+        align-content: center;*/
+        padding-top: 38vh;
+        text-align: center;
+        /*display: grid;*/
+        
+    }
 
+    .container span{
+        display: inline-block;
+        font-size: 28px;
+        font-family: 'Press Start 2P', cursive;
+        
+    }
+
+    .container span:hover {
+        color: rgb(236, 249, 120);
+        transition: all 0.3s ease-out;
+        animation: animate 1s;
+    }
+
+    .space {
+        margin-right: 2vw;
+    }
+
+    @keyframes animate {
+        0% {
+            font-size: 28px;
+        }
+        50% {
+            font-size: 23px;
+        }
+        100% {
+            font-size: 28px;
+        }
+    }
 }
 
 @media (min-width: 1199.98px) {
@@ -15,7 +93,7 @@
         justify-content: right;
         align-content: center;*/
         padding-top: 38vh;
-
+        text-align: left;
         /*display: grid;*/
         
     }

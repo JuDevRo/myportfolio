@@ -1,8 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:ital,wght@1,300&display=swap');
 /*Mobile First*/
 
+.container {
+    display: grid;
+    background-color:green;
+    padding-left: 15vw;
+    height: 100vh;
+    align-content: center;
+    
+}
+
+.con {
+    
+}
+
+.text {
+
+}
+
+.text h2 {
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 2vh;
+}
+.text p {
+    font-family: 'Ubuntu', sans-serif;
+    width: 70vw;
+}
+
+.form {
+    margin-top: 2vh;
+}
+
+.name{
+    height: 5vh;
+    width: 34.5vw;
+    margin-right: 1vw;
+    margin-bottom: 2vh;
+    text-align: center;
+    border: none;
+    background-color: black;
+}
+
+.email {
+    height: 5vh;
+    width: 34.5vw;
+    text-align: center;
+    border: none;
+    background-color: black;
+}
+
+.subject {
+    height: 5vh;
+    width: 70vw;
+    margin-bottom: 2vh;
+    text-align: center;
+    border: none;
+    background-color: black;
+}
+
+.message{
+    padding: 0;
+    
+    height: 10vh;
+    width: 70vw;
+    border: none;
+    background-color: black;
+}
+
 @media(min-width: 576px) {
     /* Tablet */
+    .container {
+        display: grid;
+        background-color:green;
+        padding-left: 15vw;
+        height: 100vh;
+        align-content: center;
+        
+    }
+
+    .con {
+        
+    }
+
+    .text {
+
+    }
+
+    .text h2 {
+        font-family: 'Press Start 2P', cursive;
+        margin-bottom: 2vh;
+    }
+    .text p {
+        font-family: 'Ubuntu', sans-serif;
+        width: 70vw;
+    }
+
+    .form {
+        margin-top: 2vh;
+    }
+
+    .name{
+        height: 5vh;
+        width: 34.5vw;
+        margin-right: 1vw;
+        margin-bottom: 2vh;
+        text-align: center;
+        border: none;
+        background-color: black;
+    }
+
+    .email {
+        height: 5vh;
+        width: 34.5vw;
+        text-align: center;
+        border: none;
+        background-color: black;
+    }
+
+    .subject {
+        height: 5vh;
+        width: 70vw;
+        margin-bottom: 2vh;
+        text-align: center;
+        border: none;
+        background-color: black;
+    }
+
+    .message{
+        padding: 0;
+        
+        height: 10vh;
+        width: 70vw;
+        border: none;
+        background-color: black;
+    }
 
 }
 
