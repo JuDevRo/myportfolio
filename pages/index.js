@@ -5,6 +5,7 @@ import About from '../components/About/About'
 import Proyects from '../components/Proyects/Proyects';
 import Courses from '../components/Courses/Courses';
 import Contact from '../components/Contact/Contact';
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 export default function Home() {
 
@@ -41,6 +42,8 @@ export default function Home() {
         <button className={styles.second} onClick={scrollProyects}>Proyects</button>
         <button className={styles.third} onClick={scrollCourses}>Courses</button>
         <button className={styles.four} onClick={scrollContact}>Contact</button>
+        <a href=''><div className={styles.git}></div></a>
+        <a href=''><div className={styles.ln}></div></a>
       </div>
       
       <div id="Home">

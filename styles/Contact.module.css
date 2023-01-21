@@ -3,11 +3,11 @@
 
 .container {
     display: grid;
-    background-color:green;
+    background-color: #e0e0e0;
     padding-left: 15vw;
     height: 100vh;
     align-content: center;
-    
+    grid-template-areas: "contact map";
 }
 
 .con {
@@ -21,10 +21,12 @@
 .text h2 {
     font-family: 'Press Start 2P', cursive;
     margin-bottom: 2vh;
+    color: black;
 }
 .text p {
     font-family: 'Ubuntu', sans-serif;
     width: 70vw;
+    color: black;
 }
 
 .form {
@@ -67,18 +69,42 @@
     background-color: black;
 }
 
+.map{
+    grid-area: map;
+    
+    padding-left: 8vw;
+    padding-top: 1vh;
+    height: 0vh;
+    width: 20vw;
+    overflow-y: hidden;
+    visibility:collapse;
+    
+}
+
+.mapiboxi{
+    
+}
+
 @media(min-width: 576px) {
     /* Tablet */
+    
     .container {
         display: grid;
-        background-color:green;
-        padding-left: 15vw;
+        background-color: #e0e0e0;
+        padding-left: 0vw;
         height: 100vh;
         align-content: center;
-        
+        justify-content: center;
+        grid-template-areas: 
+        "contact"
+        "map"
+        ;
     }
 
     .con {
+        grid-area: contact;
+        margin-top: 0vh;
+        
         
     }
 
@@ -89,10 +115,12 @@
     .text h2 {
         font-family: 'Press Start 2P', cursive;
         margin-bottom: 2vh;
+        color: black;
     }
     .text p {
         font-family: 'Ubuntu', sans-serif;
         width: 70vw;
+        color: black;
     }
 
     .form {
@@ -133,6 +161,22 @@
         width: 70vw;
         border: none;
         background-color: black;
+    }
+
+    .map{
+        grid-area: map;
+        
+        padding-left: 8vw;
+        padding-top: 1vh;
+        height: 0vh;
+        width: 20vw;
+        overflow-y: hidden;
+        visibility:collapse;
+        
+    }
+
+    .mapiboxi{
+        
     }
 
 }
@@ -141,15 +185,18 @@
     /*Desktop*/
     .container {
         display: grid;
-        background-color:green;
+        background-color: #e0e0e0;
         padding-left: 15vw;
         height: 100vh;
         align-content: center;
+        justify-content: left;
+        grid-template-areas: "contact map";
         
     }
 
     .con {
-        
+        grid-area: contact;
+        margin-top: 33vh;
     }
 
     .text {
@@ -159,10 +206,12 @@
     .text h2 {
         font-family: 'Press Start 2P', cursive;
         margin-bottom: 2vh;
+        color: black;
     }
     .text p {
         font-family: 'Ubuntu', sans-serif;
         width: 30vw;
+        color: black;
     }
 
     .form {
@@ -198,11 +247,29 @@
 
     .message{
         padding: 0;
-        
         height: 10vh;
         width: 30vw;
         border: none;
         background-color: black;
+    }
+
+    .map{
+        grid-area: map;
+        display: grid;
+        padding-left: 15vw;
+        padding-top: 1vh;
+        height: 100vh;
+        width: 40vw;
+        visibility:visible;
+        overflow-y: visible;
+    }
+
+    /*.mimg{
+        height: 90vh;
+        width: 50vw;
+    }*/
+
+    .mapiboxi{
     }
 
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../../styles/Entrada.module.css'
 
+
 const Entrada = () => {
     //<h1>Hi, I'm JuDevRo</h1>
     //<br />
@@ -44,7 +45,6 @@ const Entrada = () => {
             <span>t</span>
             <span>e</span>
             <p>/*FullStack Web Developer*/</p>
-            
         </div>
     )
 }

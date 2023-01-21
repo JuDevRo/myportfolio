@@ -206,6 +206,28 @@
       transition: all 0.3s ease-out;
     }
 
+    .git {
+        background-image: url('../assets/gitlogo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 2vw;
+        height: 5vh;
+        width: 2vw;
+        display: inline-block;
+    }
+
+    .ln {
+        background-image: url('../assets/linkedinlogo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 2vw;
+        height: 5vh;
+        width: 2vw;
+        display: inline-block;
+        margin-top: 30vh;
+        margin-left: 2vw;
+    }
+
     .notcontainer{
       padding-left: 100px;
     }
