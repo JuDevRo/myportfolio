@@ -14,7 +14,7 @@ const Entrada = () => {
             <span>,</span>
             <br />
             <span>I</span>
-            <span>'</span>
+            <span>´</span>
             <span className={styles.space}>m</span>
             <span> </span>
             <span>J</span>
@@ -44,7 +44,7 @@ const Entrada = () => {
             <span>i</span>
             <span>t</span>
             <span>e</span>
-            <p>/*FullStack Web Developer*/</p>
+            <p>/FullStack Web Developer/</p>
         </div>
     )
 }

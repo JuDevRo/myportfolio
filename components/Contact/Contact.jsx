@@ -37,7 +37,7 @@ const Contact = () => {
             <div className={styles.con}>
                 <div className={styles.text}>
                     <h2>Contact me</h2>
-                    <p>I'm interested in remote, presential or hybrid opportunities. However, if you have other request or question, don't hesitate to send a message</p>
+                    <p>I`m interested in remote, presential or hybrid opportunities. However, if you have other request or question, don`t hesitate to send a message</p>
                 </div>
             
                 <form className={styles.form} action="">

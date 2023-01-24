@@ -42,8 +42,8 @@ export default function Home() {
         <button className={styles.second} onClick={scrollProyects}>Proyects</button>
         <button className={styles.third} onClick={scrollCourses}>Courses</button>
         <button className={styles.four} onClick={scrollContact}>Contact</button>
-        <a target='_blank'  href='https://github.com/JuDevRo'><div className={styles.git}></div></a>
-        <a target='_blank' href='https://www.linkedin.com/in/juan-r-4116a5223/'><div className={styles.ln}></div></a>
+        <a target='_'  href='https://github.com/JuDevRo'><div className={styles.git}></div></a>
+        <a target='_' href='https://www.linkedin.com/in/juan-r-4116a5223/'><div className={styles.ln}></div></a>
       </div>
       
       <div id="Home">

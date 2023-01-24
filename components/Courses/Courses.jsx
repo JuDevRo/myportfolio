@@ -7,7 +7,7 @@ const Courses = () => {
     return(
         <div className={styles.container}>
             {coursesDo.map((co) => (
-                <div className={styles.card}>
+                <div key='' className={styles.card}>
                 <h3>{co.subject}</h3>
                 <Link href={`/curso/${co.link}`}><h2>{co.title}</h2></Link>
                 <p>{co.resume}</p>

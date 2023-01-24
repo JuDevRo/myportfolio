@@ -4,19 +4,20 @@ import coursesDo from '../../db/courses'
 import style from '../../styles/Curso.module.css'
 import Link from 'next/link'
 
-const curso = () => {
+const Curso = () => {
+    
     const router = useRouter()
     const cursoId = router.query.id
 
     return(
         <div className={style.container}>
             <div className={style.containerCurso}>
-            <Link href="/"><h1>{coursesDo[cursoId].title}</h1></Link>
-                <h2>({coursesDo[cursoId].subject})</h2>
-                <p>{coursesDo[cursoId].description}</p>
+            <Link href="/"><h1>{coursesDo[0].title}</h1></Link>
+                <h2>({coursesDo[0].subject})</h2>
+                <p>{coursesDo[0].description}</p>
             </div>
         </div>
     )
 }
 
-export default curso
+export default Curso
