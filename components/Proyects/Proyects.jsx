@@ -11,32 +11,32 @@ const Proyects = () => {
         <div className={styles.container}>
             <div className={styles.uno}>
                <div className={styles.tapa}>
-                    <h2><a href="">View<br/>Project</a></h2>
+                    <h2><a target='blank' href="https://github.com/JuDevRo/NextJS-Avocados">View<br/>Project</a></h2>
                 </div>
             </div>
             <div className={styles.dos}>
                 <div className={styles.tapa}>
-                    <h2><a href="">View<br/>Project</a></h2>
+                    <h2><a target='blank' href="https://github.com/JuDevRo/Batata-bit">View<br/>Project</a></h2>
                 </div>
             </div>
             <div className={styles.tres}>
                 <div className={styles.tapa}>
-                    <h2><a href="">View<br/>Project</a></h2>
+                    <h2><a target='blank' href="https://github.com/JuDevRo/SPA-EpicMovies">View<br/>Project</a></h2>
                 </div>
             </div>
             <div className={styles.cuatro}>
                 <div className={styles.tapa}>
-                    <h2><a href="">View<br/>Project</a></h2>
+                    <h2><a target='blank' href="https://github.com/JuDevRo/JestReact">View<br/>Project</a></h2>
                 </div>
             </div>
             <div className={styles.cinco}>
                 <div className={styles.tapa}>
-                    <h2><a href="">View<br/>Project</a></h2>
+                    <h2><a target='blank' href="https://github.com/JuDevRo/TODOs-React">View<br/>Project</a></h2>
                 </div>
             </div>
             <div className={styles.seis}>
                 <div className={styles.tapa}>
-                    <h2><a href="">View<br/>Project</a></h2>
+                    <h2><a target='blank' href="https://github.com/JuDevRo/pokedux">View<br/>Project</a></h2>
                 </div>  
             </div>
         </div>

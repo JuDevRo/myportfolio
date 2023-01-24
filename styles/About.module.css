@@ -21,6 +21,16 @@
     font-size: 16px;
 }
 
+#a {
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+#aa{
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    font-size: 15px;
+}
+
 .me{
     margin-top: 2vh;
 }
@@ -174,6 +184,16 @@
         font-size: 20px;
     }
 
+    #a {
+        margin-top: 1vh;
+        margin-bottom: 2vh;
+    }
+    #aa{
+        margin-top: 1vh;
+        margin-bottom: 2vh;
+        font-size: 18px;
+    }
+
     .container p {
         font-family: 'Ubuntu', sans-serif;
         width: 100%;
@@ -191,7 +211,7 @@
         width: 80vw;
         height: 35vh;
         text-align: center;
-        padding: 3vw;
+        padding: 1vw;
     }
 
     /*3D*/
@@ -318,6 +338,16 @@
         font-family: 'Press Start 2P', cursive;
         margin-bottom: 5vh;
         margin-right: 0px;
+        font-size: 30px;
+    }
+
+    #a {
+        margin-top: 3vh;
+        margin-bottom: 5vh;
+    }
+    #aa{
+        margin-top: 3vh;
+        margin-bottom: 5vh;
         font-size: 30px;
     }
 

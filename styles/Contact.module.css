@@ -69,6 +69,23 @@
     background-color: black;
 }
 
+.enviar {
+    border: none;
+    padding: 1vw;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 1vh;
+}
+
+.enviar:hover {
+    cursor: pointer;
+}
+
+.enviar:focus {
+    background-color: green;
+}
+
 .map{
     grid-area: map;
     
@@ -163,6 +180,23 @@
         background-color: black;
     }
 
+    .enviar {
+        border: none;
+        padding: 1vw;
+        background-color: black;
+        color: white;
+        width: 100%;
+        margin-top: 1vh;
+    }
+
+    .enviar:hover {
+        cursor: pointer;
+    }
+
+    .enviar:focus {
+        background-color: green;
+    }
+
     .map{
         grid-area: map;
         
@@ -252,6 +286,24 @@
         border: none;
         background-color: black;
     }
+
+    .enviar {
+        border: none;
+        padding: 0.5vw;
+        background-color: black;
+        color: white;
+        width: 100%;
+        margin-top: 1vh;
+    }
+
+    .enviar:hover {
+        cursor: pointer;
+    }
+
+    .enviar:focus {
+        background-color: green;
+    }
+
 
     .map{
         grid-area: map;

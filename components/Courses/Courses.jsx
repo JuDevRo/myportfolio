@@ -1,54 +1,20 @@
 import React from 'react'
 import styles from '../../styles/Courses.module.css'
+import coursesDo from '../../db/courses'
+import Link from 'next/link'
 
 const Courses = () => {
     return(
         <div className={styles.container}>
-            <div className={styles.card} id={styles.a}>
-                <h3>React & Frontend</h3>
-                <a href=""><h2>How to use Redux</h2></a>
-                <p>In this blog I talk about how to use Redux...</p>
+            {coursesDo.map((co) => (
+                <div className={styles.card}>
+                <h3>{co.subject}</h3>
+                <Link href={`/curso/${co.link}`}><h2>{co.title}</h2></Link>
+                <p>{co.resume}</p>
             </div>
-            <div className={styles.card} id={styles.b}>
-                <h3>React & Frontend</h3>
-                <a href=""><h2>How to use Redux</h2></a>
-                <p>In this blog I talk about how to use Redux...</p>
-            </div>
-            <div className={styles.card} id={styles.c}>
-                <h3>React & Frontend</h3>
-                <a href=""><h2>How to use Redux</h2></a>
-                <p>In this blog I talk about how to use Redux...</p>
-            </div>
-            <div className={styles.card} id={styles.d}>
-                <h3>React & Frontend</h3>
-                <a href=""><h2>How to use Redux</h2></a>
-                <p>In this blog I talk about how to use Redux...</p>
-            </div>
-            <div className={styles.card} id={styles.e}>
-                <h3>React & Frontend</h3>
-                <a href=""><h2>How to use Redux</h2></a>
-                <p>In this blog I talk about how to use Redux...</p>
-            </div>
-            <div className={styles.card} id={styles.f}>
-                <h3>React & Frontend</h3>
-                <a href=""><h2>How to use Redux</h2></a>
-                <p>In this blog I talk about how to use Redux...</p>
-            </div>
-            <div className={styles.card} id={styles.g}>
-                <h3>React & Frontend</h3>
-                <a href=""><h2>How to use Redux</h2></a>
-                <p>In this blog I talk about how to use Redux...</p>
-            </div>
-            <div className={styles.card} id={styles.h}>
-                <h3>React & Frontend</h3>
-                <a href=""><h2>How to use Redux</h2></a>
-                <p>In this blog I talk about how to use Redux...</p>
-            </div>
-            <div className={styles.card} id={styles.i}>
-                <h3>React & Frontend</h3>
-                <a href=""><h2>How to use Redux</h2></a>
-                <p>In this blog I talk about how to use Redux...</p>
-            </div>
+            ))}
+             
+            
         </div>
     )
 }

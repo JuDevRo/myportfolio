@@ -1,0 +1,47 @@
+.container {
+
+}
+
+.containerCurso {
+
+}
+
+@media(min-width: 576px) {
+
+}
+
+@media (min-width: 1199.98px) {
+.container {
+    background-color: black;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    height: 100vh;
+}
+
+.containerCurso {
+    background-color: white;
+    height: 90vh;
+    margin-top: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 4vh;
+    border-radius: 20px;
+}
+
+.containerCurso h1 {
+    color:black;
+    grid-area: title;
+    margin-bottom: 1vh;
+}
+
+.containerCurso h2 {
+    color:black;
+    grid-area: subtitle;
+    margin-bottom: 5vh;
+}
+
+.containerCurso p {
+    color:black;
+    grid-area: description;
+}
+}
