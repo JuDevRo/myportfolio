@@ -14,7 +14,7 @@ const Entrada = () => {
             <span>,</span>
             <br />
             <span>I</span>
-            <span>´</span>
+            <span>`</span>
             <span className={styles.space}>m</span>
             <span> </span>
             <span>J</span>

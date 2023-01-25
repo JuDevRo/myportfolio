@@ -100,7 +100,7 @@
 
     .container span{
         display: inline-block;
-        font-size: 32px;
+        font-size: 2em;
         font-family: 'Press Start 2P', cursive;
         
     }
@@ -109,6 +109,10 @@
         color: rgb(236, 249, 120);
         transition: all 0.3s ease-out;
         animation: animate 1s;
+    }
+
+    .container p {
+        font-size: 1.2em;
     }
 
     .space {

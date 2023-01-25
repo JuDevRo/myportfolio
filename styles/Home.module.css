@@ -20,6 +20,7 @@
   margin-bottom: 1vh;
   font-family: 'Press Start 2P', cursive;
   cursor: pointer;
+  font-size: 1.2em;
 }
 
 .aside h3:hover{
@@ -37,6 +38,7 @@
   border: none;
   border-right: 1px solid white;
   border-left: 1px solid white;
+  font-size: 1em;
 }
 
 .first:hover{
@@ -108,6 +110,7 @@
       margin-bottom: 1vh;
       font-family: 'Press Start 2P', cursive;
       cursor: pointer;
+      font-size: 1.2em;
     }
 
     .aside h3:hover{
@@ -119,6 +122,7 @@
       display: inline-block;
       padding-right: 1vw;
       padding-left: 1vw;
+      font-size: 1em;
       font-family: 'Press Start 2P', cursive;
       text-decoration: none;
       background: none;
@@ -197,6 +201,7 @@
     .aside h3 {
       margin-top: 5vh;
       margin-bottom: 30vh;
+      font-size: 1.2em;
       font-family: 'Press Start 2P', cursive;
       cursor: pointer;
     }
@@ -215,6 +220,7 @@
       padding: 10px 0 10px 0;
       margin-top: 2vh;
       font-family: 'Press Start 2P', cursive;
+      font-size: 1em;
       text-decoration: none;
       background: none;
       border: none;
