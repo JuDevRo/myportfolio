@@ -264,10 +264,10 @@
     .ln {
         visibility: visible;
         background-size: 1vw;
-        height: 39px;
-        width: 40px;
+        height: 34px;
+        width: 35px;
         display: inline-block;
-        margin-top: 30vh;
+        margin-top: 27vh;
         margin-left: 25px;
         z-index: 1;
     }
