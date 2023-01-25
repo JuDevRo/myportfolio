@@ -63,6 +63,26 @@
   transition: all 0.3s ease-out;
 }
 
+.git {
+  visibility: hidden;
+  display: none;
+  background-size: 0vw;
+  height: 0vh;
+  width: 0vw;
+  z-index: 1;
+}
+
+.ln {
+  visibility: hidden;
+  display: none;
+  background-size: 0vw;
+  height: 0vh;
+  width: 0vw;  
+  margin-top: 0vh;
+  margin-left: 0vw;
+  z-index: 1;
+}
+
 .notcontainer{
   padding-left: 100px;
 }
@@ -134,6 +154,26 @@
     .notcontainer{
       padding-left: 100px;
     }
+
+    .git {
+      visibility: hidden;
+      display: none;
+      background-size: 0vw;
+      height: 0vh;
+      width: 0vw;
+      z-index: 1;
+  }
+
+  .ln {
+      visibility: hidden;
+      display: none;
+      background-size: 0vw;
+      height: 0vh;
+      width: 0vw;  
+      margin-top: 0vh;
+      margin-left: 0vw;
+      z-index: 1;
+  }
 }
 
 @media (min-width: 1199.98px) {
@@ -207,25 +247,23 @@
     }
 
     .git {
-        background-image: url('../assets/gitlogo.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 2vw;
-        height: 5vh;
-        width: 2vw;
+        visibility: visible;
+        background-size: 1vw;
+        height: 4.5vh;
+        width: 3vw;
         display: inline-block;
+        z-index: 1;
     }
 
     .ln {
-        background-image: url('../assets/linkedinlogo.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 2vw;
-        height: 5vh;
-        width: 2vw;
+        visibility: visible;
+        background-size: 1vw;
+        height: 4.5vh;
+        width: 2.8vw;
         display: inline-block;
         margin-top: 30vh;
         margin-left: 2vw;
+        z-index: 1;
     }
 
     .notcontainer{

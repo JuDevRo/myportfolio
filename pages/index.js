@@ -6,6 +6,10 @@ import Proyects from '../components/Proyects/Proyects';
 import Courses from '../components/Courses/Courses';
 import Contact from '../components/Contact/Contact';
 import 'mapbox-gl/dist/mapbox-gl.css';
+import Image from 'next/image';
+
+import git from '../assets/gitlogo.png';
+import ln from '../assets/linkedinlogo.png'
 
 export default function Home() {
 
@@ -33,7 +37,8 @@ export default function Home() {
     var elem = document.getElementById("Contact");
     elem.scrollIntoView()
   }
-
+  //<div className={styles.git}></div>
+  //<div className={styles.ln}></div>
   return (
     <div className={styles.container}>
       <div className={styles.aside}>
@@ -42,8 +47,8 @@ export default function Home() {
         <button className={styles.second} onClick={scrollProyects}>Proyects</button>
         <button className={styles.third} onClick={scrollCourses}>Courses</button>
         <button className={styles.four} onClick={scrollContact}>Contact</button>
-        <a target='_'  href='https://github.com/JuDevRo'><div className={styles.git}></div></a>
-        <a target='_' href='https://www.linkedin.com/in/juan-r-4116a5223/'><div className={styles.ln}></div></a>
+        <a target='_'  href='https://github.com/JuDevRo'><Image src={git} className={styles.git}/></a>
+        <a target='_' href='https://www.linkedin.com/in/juan-r-4116a5223/'><Image src={ln} className={styles.ln}/></a>
       </div>
       
       <div id="Home">
