@@ -249,8 +249,8 @@
     .git {
         visibility: visible;
         background-size: 1vw;
-        height: 4.5vh;
-        width: 3vw;
+        height: 39px;
+        width: 40px;
         display: inline-block;
         z-index: 1;
     }
@@ -258,11 +258,11 @@
     .ln {
         visibility: visible;
         background-size: 1vw;
-        height: 4.5vh;
-        width: 2.8vw;
+        height: 39px;
+        width: 40px;
         display: inline-block;
         margin-top: 30vh;
-        margin-left: 2vw;
+        margin-left: 25px;
         z-index: 1;
     }
 
