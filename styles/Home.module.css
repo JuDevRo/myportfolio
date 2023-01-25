@@ -201,7 +201,7 @@
     .aside h3 {
       margin-top: 5vh;
       margin-bottom: 30vh;
-      font-size: 1.2em;
+      font-size: 1.2rem;
       font-family: 'Press Start 2P', cursive;
       cursor: pointer;
     }
@@ -220,7 +220,7 @@
       padding: 10px 0 10px 0;
       margin-top: 2vh;
       font-family: 'Press Start 2P', cursive;
-      font-size: 1em;
+      font-size: 1rem;
       text-decoration: none;
       background: none;
       border: none;
