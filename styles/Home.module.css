@@ -190,7 +190,7 @@
       height: 100vh;
       padding: 0vh;
       background-color: black;
-      width: 150px;
+      width: 10.1vw;
       position: fixed;
       text-align: center;
       justify-content: center;
@@ -275,4 +275,101 @@
     .notcontainer{
       padding-left: 100px;
     }
+}
+
+@media (min-width: 1829px) {
+  /*Desktop*/
+  .container {
+    background-color: rgb(44, 44, 44);
+  }
+  
+  .aside {
+    height: 100vh;
+    padding: 0vh;
+    background-color: black;
+    width: 10.1vw;
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    z-index: 1;
+  }
+
+  .aside h3 {
+    margin-top: 5vh;
+    margin-bottom: 30vh;
+    font-size: 1.4rem;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+  }
+
+  .aside h3:hover{
+    color: rgb(236, 249, 120);
+    transition: all 0.3s ease-out;
+  }
+
+  .aside button {
+    display: block;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin: 0px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    margin-top: 2vh;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2rem;
+    text-decoration: none;
+    background: none;
+    border: none;
+    border-top: 0px solid white;
+    border-bottom: 1px solid white;
+  }
+
+  .first:hover{
+    background-color: rgb(253, 253, 253);
+    color: black;
+    transition: all 0.3s ease-out;
+  }
+
+  .second:hover{
+    background-color: rgb(253, 253, 253);
+    color: black;
+    transition: all 0.3s ease-out;
+  }
+
+  .third:hover {
+    background-color: rgb(253, 253, 253);
+    color: black;
+    transition: all 0.3s ease-out;
+  }
+
+  .four:hover {
+    background-color: rgb(253, 253, 253);
+    color: black;
+    transition: all 0.3s ease-out;
+  }
+
+  .git {
+      visibility: visible;
+      background-size: 1vw;
+      height: 39px;
+      width: 40px;
+      display: inline-block;
+      z-index: 1;
+  }
+
+  .ln {
+      visibility: visible;
+      background-size: 1vw;
+      height: 34px;
+      width: 35px;
+      display: inline-block;
+      margin-top: 27vh;
+      margin-left: 25px;
+      z-index: 1;
+  }
+
+  .notcontainer{
+    padding-left: 100px;
+  }
 }

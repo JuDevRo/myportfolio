@@ -484,3 +484,166 @@
     }
 
 }
+
+@media (min-width: 1829px) {
+    /*Desktop*/
+    .container {
+        display: grid;
+        /*background-color: rgb(44, 44, 44);*/
+        background-color: #e0e0e0;
+        padding-left: 15vw;
+        height: 100vh;
+        align-content: center;
+        grid-template-areas: "tex crea";
+    }
+
+    .container h2 {
+        font-family: 'Press Start 2P', cursive;
+        margin-bottom: 5vh;
+        margin-right: 0px;
+        font-size: 2rem;
+    }
+
+    .me {
+        font-family: 'Press Start 2P', cursive;
+        margin-bottom: 5vh;
+        margin-right: 0px;
+        font-size: 3rem;
+    }
+
+    #a {
+        margin-top: 3vh;
+        margin-bottom: 5vh;
+    }
+    #aa{
+        margin-top: 3vh;
+        margin-bottom: 5vh;
+        font-size: 30px;
+    }
+
+    .container p {
+        font-family: 'Ubuntu', sans-serif;
+        width: 100%;
+        margin-right: 0px;
+        font-size: 1rem;
+    }
+
+    
+
+    .text {
+        grid-area: tex;
+        margin: 0px;
+        color: black;
+        border-radius: 63px;
+        background: linear-gradient(145deg, #cacaca, #f0f0f0);
+        box-shadow:  25px 25px 50px #9b9b9b,
+                    -25px -25px 50px #ffffff;
+        width: 32vw;
+        height: 50vh;
+        text-align: center;
+        padding: 2vw;
+    }
+
+    /*3D*/
+    .creative {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-area: crea;
+        padding-top: 20vh;
+        width: 250px;
+        height: 250px;
+        perspective: 1000px;
+    }
+
+    .box {
+        height: 250px;
+        width: 250px;
+        /*position: relative;*/
+        top: 100px;
+        left: 100px;
+        transform-style: preserve-3d;
+        animation: animate 5s infinite;
+    }
+
+    @keyframes animate {
+        0% {
+            transform: rotateX(45deg) rotateY(-45deg);
+        }
+        25% {
+            transform: rotateX(-45deg) rotateY(-45deg);
+        }
+        50% {
+            transform: rotateX(45deg) rotateY(45deg);
+        }
+        75% {
+            transform: rotateX(-45deg) rotateY(45deg);
+        }
+        100% {
+            transform: rotateX(45deg) rotateY(-45deg);
+        }
+    }
+
+    .card {
+        height: 250px;
+        width: 250px;
+        text-align: center;
+        padding: 0px 0px;
+        color: white;
+        background: black;
+        border: 2px solid white;
+        font-size: 3rem;
+        box-sizing: border-box;
+        position: absolute;
+        font-family: 'Press Start 2P', cursive;
+    }
+    
+    
+
+    .ht {
+        margin-top: 15px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .cs {
+        margin-top: 15px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .js {
+        margin-top: 15px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    #front {
+        transform: translateZ(125px);
+    }
+
+    #back {
+        transform: translateZ(-125px);
+    }
+
+    #left {
+        right: 125px;
+        transform: rotateY(-90deg);
+    }
+
+    #right {
+        left: 125px;
+        transform: rotateY(90deg);
+    }
+
+    #top {
+        bottom: 125px;
+        transform: rotateX(90deg);
+    }
+
+    #bottom {
+        top: 125px;
+        transform: rotateX(-90deg);
+    }
+
+}
