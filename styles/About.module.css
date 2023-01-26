@@ -342,6 +342,9 @@
     }
 
     .me {
+        font-family: 'Press Start 2P', cursive;
+        margin-bottom: 5vh;
+        margin-right: 0px;
         font-size: 2rem;
     }
 

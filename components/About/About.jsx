@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className={styles.container}>
             <div className={styles.text}>
-            <h2 className={styles.me}>Me, About JuDevRo</h2>
+            <h1 className={styles.me}>Me, About JuDevRo</h1>
             <p>I`m a Fullstack Developer located in Barcelona. I have a serious passion for Technologies and software development.
             <br />
             <br />
