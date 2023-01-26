@@ -203,7 +203,7 @@
     /*Desktop*/
     .container {
         background-color: #e0e0e0;
-        padding-left: 150px;
+        padding-left: 10.1vw;
         height: 100vh;
         display: grid;
         grid-template-areas: 

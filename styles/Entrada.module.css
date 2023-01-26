@@ -87,7 +87,7 @@
 @media (min-width: 1199.98px) {
     /*Desktop*/
     .container {
-        padding-left: 180px;
+        padding-left: 10.9vw;
         height: 100vh;
         /*text-align: right;
         justify-content: right;
@@ -100,75 +100,9 @@
 
     .container span{
         display: inline-block;
-        font-size: 2rem;
+        font-size: 2.3rem;
         font-family: 'Press Start 2P', cursive;
-        
-    }
-
-    .container span:hover {
-        color: rgb(236, 249, 120);
-        transition: all 0.3s ease-out;
-        animation: animate 1s;
-    }
-
-    .container p {
-        font-size: 1.2rem;
-    }
-
-    .space {
-        margin-right: 2vw;
-    }
-    
-    /*.container h1 {
-       display: block;
-       margin-right: 50px;
-       font-family: 'Press Start 2P', cursive;
-       
-    }
-
-    .container h1:hover {
-        animation: animate 2s;
-    }
-
-    .container p {
-        display: block;
-        margin-top: 20px;
-        margin-right: 20vh;
-        font-family: 'Ubuntu', sans-serif;
-     }*/
-    
-     @keyframes animate {
-        0% {
-            font-size: 32px;
-        }
-        50% {
-            font-size: 27px;
-        }
-        100% {
-            font-size: 32px;
-        }
-    }
-}
-
-@media (min-width: 1829px) {
-    /*Desktop*/
-    .container {
-        padding-left: 180px;
-        height: 100vh;
-        /*text-align: right;
-        justify-content: right;
-        align-content: center;*/
-        padding-top: 38vh;
-        text-align: left;
-        /*display: grid;*/
-        
-    }
-
-    .container span{
-        display: inline-block;
-        font-size: 3rem;
-        font-family: 'Press Start 2P', cursive;
-        
+        cursor: pointer;
     }
 
     .container span:hover {
@@ -205,13 +139,13 @@
     
      @keyframes animate {
         0% {
-            font-size: 32px;
+            font-size: 2.3rem;
         }
         50% {
-            font-size: 27px;
+            font-size: 2rem;
         }
         100% {
-            font-size: 32px;
+            font-size: 2.3rem;
         }
     }
 }
