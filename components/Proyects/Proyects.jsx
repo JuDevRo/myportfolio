@@ -11,7 +11,7 @@ const Proyects = () => {
         <div className={styles.container}>
             <div className={styles.uno}>
                <div className={styles.tapa}>
-                    <h2><a target='blank' href="https://github.com/JuDevRo/NextJS-Avocados">View<br/>Project</a></h2>
+                    <h2><a target='blank' href="https://avo-store-12oo2wufy-judevro.vercel.app/">View<br/>Project</a></h2>
                 </div>
             </div>
             <div className={styles.dos}>
@@ -31,12 +31,12 @@ const Proyects = () => {
             </div>
             <div className={styles.cinco}>
                 <div className={styles.tapa}>
-                    <h2><a target='blank' href="https://github.com/JuDevRo/TODOs-React">View<br/>Project</a></h2>
+                    <h2><a target='blank' href="https://tod-os-react.vercel.app/">View<br/>Project</a></h2>
                 </div>
             </div>
             <div className={styles.seis}>
                 <div className={styles.tapa}>
-                    <h2><a target='blank' href="https://github.com/JuDevRo/pokedux">View<br/>Project</a></h2>
+                    <h2><a target='blank' href="https://pokedux-psi.vercel.app/">View<br/>Project</a></h2>
                 </div>  
             </div>
         </div>
