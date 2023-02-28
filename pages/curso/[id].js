@@ -15,6 +15,8 @@ const Curso = () => {
             <Link href="/"><h1>{coursesDo[0].title}</h1></Link>
                 <h2>({coursesDo[0].subject})</h2>
                 <p>{coursesDo[0].description}</p>
+                <p>Courses available soon</p>
+                <p>Click on the title to return to the home page</p>
             </div>
         </div>
     )
